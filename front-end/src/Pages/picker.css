@@ -1,0 +1,48 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.seat {
+  background-color: green;
+}
+
+.seat--reserved {
+  background-color: gray;
+}
+
+.seat--selected {
+  background-color: blue;
+}
+
+.seat-picker {
+  margin: auto;
+}
+
+div.blank {
+  display: none;
+}
+.screen {
+  background-color: black;
+  color: wheat;
+  width: 80%;
+  margin: 10%;
+}
+.seat-select {
+  margin: 10%;
+  background-color: rgb(212, 74, 212);
+  height: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.seat-select > h1 {
+  font-size: 20px;
+  margin-left: 20px;
+}
+h1,
+h2,
+p,
+h3 {
+  font-family: "Montserrat", sans-serif;
+}

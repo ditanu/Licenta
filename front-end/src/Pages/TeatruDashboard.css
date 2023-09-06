@@ -1,0 +1,41 @@
+.dashboard-table-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-container {
+  margin-bottom: 20px;
+}
+
+.search-container input {
+  width: 250px;
+}
+
+table {
+  margin-top: 20px;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.search-container input {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  font-size: 16px;
+  padding: 10px 20px;
+  width: 100%; /* increase the width to 70% */
+}
+
+.search-container input:focus {
+  outline: none;
+  box-shadow: 0 0 10px rgba(63, 81, 181, 0.4);
+}
+
+input::placeholder {
+  text-align: center;
+}
